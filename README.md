@@ -11,7 +11,8 @@ I am an enthusiastic software developer who is starting my journey in building s
 - **PHP** (collaborative project experience)
 
 ### Web Development
-- **ASP.NET Core (MVC) 8**
+- **ASP.NET Core**
+- **ASP.NET MVC**
 - **React**
 - **HTML**
 - **CSS**
