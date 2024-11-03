@@ -1,7 +1,7 @@
 # Hi there, I'm Vadim Kirpikov 👋
 
 ## 👨‍💻 About Me
-I am an enthusiastic software developer who is starting my journey in building scalable web applications. I have a solid foundation in multiple programming languages and technologies, which helps me learn quickly and contribute effectively to projects. I am eager to expand my skills and knowledge in software development and collaborate with others developers!
+I am an enthusiastic software developer who is starting my journey in building scalable web applications. I have a solid foundation in multiple programming languages and technologies, which helps me learn quickly and contribute effectively to projects. I am eager to expand my skills and knowledge in software development and collaborate with other developers!
 
 ## 🛠 Skills & Technologies
 
