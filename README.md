@@ -1,8 +1,10 @@
 # **Вадим Кирпиков**  
 **Backend Developer | Full-stack Developer**  
 
-**🏠 Location:** Ижевск, Россия 
+**🏠 Location:** Ижевск, Россия
+
 **📧 Email:** vadimkirp13@gmail.com
+
 **Telegram:** @vkirpikov
 
 ---
