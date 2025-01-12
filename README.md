@@ -1,56 +1,91 @@
-# Hi there, I'm Vadim Kirpikov 👋
+# **Вадим Кирпиков**  
+**Backend Developer | Full-stack Developer**  
 
-## 👨‍💻 About me
-I am an aspiring software developer with a strong foundation in building scalable and efficient web applications. While I am at the beginning of my journey in the IT world, I am eager to learn and adapt to new challenges. I thrive in collaborative environments and am always enthusiastic about contributing to impactful projects and growing as a professional.
+**🏠 Location:** Ижевск, Россия 
+**📧 Email:** vadimkirp13@gmail.com
+**Telegram:** @vkirpikov
 
-## 🛠 Skills & technologies
+---
 
-### Programming languages
+### **👨‍💻 О себе**  
+Я начинающий разработчик с большим интересом к созданию высококачественных веб-приложений. Есть опыт успешгого прохождения технического собеседования в ноябре 2024 (собеседовался на позицию стажера бэкенд-разрабочтика в СКБ "Контур", но на стажировку не попал, потому что не нашли команду).
+
+---
+
+### **🛠️ Навыки**
+
+#### **Языки программирования:**  
 - **C#**
-- **JavaScript (JS)**
-- **PHP**: I have small experience in collaborative project (plugin `BACS` for Moodle which was published in Moodle plugins directory)
-- **C/C++**
-- **Python**
+- **C++**
+- **PHP**
+- **JavaScript**
 
-### Web development
-- **ASP.NET Core**
-- **ASP.NET MVC**
+#### **Frontend-разработка:**  
 - **React**
-- **Chakra UI**
-- **HTML & CSS**
+- **JavaScript** 
+- **HTML5 / CSS3**
 
-### Testing & best practices
-- **xUnit**
-- **Moq**
-- **SOLID principles**
-- **Design patterns**.
-
-### Algorithms & data structures
-- Strong understanding of fundamental algorithms (sorting, searching, etc.) and data structures (arrays, lists, trees, graphs).
-- Experience in applying algorithms to solve complex problems and optimize application performance.
-
-### Databases
-- **PostgreSQL**: this is my main database
-- **MySQL**: I used it during working with plugin `BACS` for Moodle
-- **Redis**
-
-### Backend technologies
-- **Entity Framework (EF) Core 8**
+#### **Backend-разработка:**  
+- **ASP.NET Core**  
+- **EF Core** 
 - **Dapper**
+- **SQL** 
+- **PostgreSQL**
+- **Redis**  
 - **Kafka**
 
-### DevOps & tools
-- **Docker**
-- **Nginx**: basic experience of managing nginx.conf for http and https
-- **Linux**: comfortable working with Debian-based distributions, also I have experience in website deployment on VPS
+#### **Тестирование**
+- **xUnit**
+- **Moq**
+
+#### **Технологии и инструменты:**  
 - **Git**
-- **Theoretical knowledge of Kubernetes (k8s)**
+- **Docker** 
+- **Kubernetes**
+- **Nginx**  
+- **Grafana**  
+- **Prometheus**
+- **Linux**
+  
+#### **CI/CD:**  
+- **GitHub Actions**
 
+#### **Прочее:** 
+- **Успешные кейсы применения некоторых паттернов проектирования**
+- **понимание принципов SOLID**
+---
 
-## 💡 What sets me apart
-- **Quick learner**: I can learn new technologiels very quickly (using Google, ChatGPT etc.).
-- **Continuous learner**: actively stay updated with industry trends and continuously seek opportunities to improve my skill set.
+### **💻 Проекты**
 
-## 📫 Connect with me
-- **GitHub**: [github.com/vadimkirpikov](https://github.com/vadimkirpikov)
-- **Email**: vadimkirp13@gmail.com
+#### **Социальная сеть**  
+**Описание**: Мой основной проект — пока что реализован только бэкенд. Проект состоит из 4 микросервисов: микросервис пользователей, микросервис постов, микросервис уведомлений (с заглушкой под FCM, будет полноценно реализован после детального разбора технологии) и микросервис чатов. 
+
+**Особенности проекта:**  
+- **Централизованный доступ**: реализован через API Gateway (Nginx), что упрощает маршрутизацию и управление запросами.  
+- **Сбор метрик**: используется связка Prometheus и Grafana для мониторинга производительности и состояния системы.  
+- **Среда выполнения**: все микросервисы настроены для работы в контейнерах с использованием Docker, а также развернуты в локальном кластере Kubernetes.  
+- **Автоматизация CI/CD**: реализована автоматическая сборка, тестирование (если тесты присутствуют) и публикация Docker-образов через GitHub Actions при каждом `git push`.
+  
+**Технологии(бэкенд)**: ASP.NET Core 8, Entity Framework Core 8, SignalR, xUnit, Moq, PostgreSQL, Docker, Kafka, Nginx, K8s, Prometheus, Grafana, Github Actions  
+Репозитории:
+- [Манифесты Kubernetes](https://github.com/vadimkirpikov/cs-sn-api-k8s)
+- [Микросервис пользователй](https://github.com/vadimkirpikov/cs-user-service)
+- [Микросервис постов](https://github.com/vadimkirpikov/cs-post-api)
+- [Микросервис уведомлений](https://github.com/vadimkirpikov/cs-notification-service)
+- [Микросервис чатов](https://github.com/vadimkirpikov/cs-chat-service)
+
+---
+
+### **📚 Образование**
+
+**ФГБОУ ВО "ИжГТУ им М. Т. Калашникова"** — **Программная инженения, бакалавриат, год окончания 2026**  
+
+---
+
+### **🏆 Достижения и активность**
+- Разрабатывал несколько проектов, включая API и веб-приложения.
+- Разработкал свой сайт о программировании [https://progvibe.ru](https://progvibe.ru), который сначала был с бэкендом на ASP .NET Core MVC + MySQL + Docker и развернут на VPS, позже был переписан только на React, потому что там нет динамического контента с деплоем на github pages.
+- Успешно внедрил GitHub Actions для автоматизации процесса CI/CD в учебных проектах.
+- С командой разрабатывал плагин для платформы Moodle, который был выгружен в официальный каталог плагинов. Репозиторий [здесь](https://github.com/watasm/moodle-mod_bacs)
+- В рамках проектной практики в университете высупал руководителем проекта "Сервис электронной подписи" - библиотеки для интеграции криптографического функционала различных криптопровайдеров через единый объектно-ориентированный интерфес. Репозиторий [здесь](https://github.com/DanielReker/crypto-framework)
+  
