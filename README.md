@@ -68,7 +68,7 @@
 - **Среда выполнения**: все микросервисы настроены для работы в контейнерах с использованием Docker, а также развернуты в локальном кластере Kubernetes.  
 - **Автоматизация CI/CD**: реализована автоматическая сборка, тестирование (если тесты присутствуют) и публикация Docker-образов через GitHub Actions при каждом `git push`.
   
-**Технологии(бэкенд)**: ASP.NET Core 8, Entity Framework Core 8, SignalR, xUnit, Moq, PostgreSQL, Docker, Kafka, Nginx, K8s, Prometheus, Grafana, Github Actions  
+**Технологии(бэкенд)**: ASP.NET Core 8, Entity Framework Core 8, SignalR, xUnit, Moq, PostgreSQL, Docker, Kafka, Nginx, Kubernetes, Prometheus, Grafana, Github Actions  
 Репозитории:
 - [Манифесты Kubernetes](https://github.com/vadimkirpikov/cs-sn-api-k8s)
 - [Микросервис пользователй](https://github.com/vadimkirpikov/cs-user-service)
