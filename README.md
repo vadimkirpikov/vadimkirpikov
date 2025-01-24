@@ -21,6 +21,7 @@
 - **C++**
 - **PHP**
 - **JavaScript**
+- **Java**
 
 #### **Frontend-разработка:**  
 - **React**
